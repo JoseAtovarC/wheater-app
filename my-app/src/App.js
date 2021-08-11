@@ -1,10 +1,15 @@
-import imagen from '../src/assets/foto.png'
 import './App.css';
+<<<<<<< HEAD
 import Fetch from './fetchPrueba';
+=======
+import SmallCard from './components/larger-container/small-container'
+import LargeContainer from './components/larger-container/larger-container'
+>>>>>>> 2af105aeec516a9b1be808c71b48fc28dfde8df6
 
 function App() {
   return (
     <div className="container">
+<<<<<<< HEAD
       
       <aside className="sideCard-container">
         <input className="inp-city" placeholder=" 🔍 Search for Places"></input>
@@ -31,6 +36,10 @@ function App() {
       <Fetch></Fetch>
       </section>
       
+=======
+      <SmallCard></SmallCard>
+      <LargeContainer></LargeContainer>
+>>>>>>> 2af105aeec516a9b1be808c71b48fc28dfde8df6
     </div>
   );
 }
