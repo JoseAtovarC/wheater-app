@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 4rem;
+  background-color: #D6D7DB;
+  height: 100vh;
+}
+
+.sideCard-container{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 2rem;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.inp-city{
+  border-style: none;
+  margin-top: 1rem;
+  border-radius: 4%;
+}
+
+
+
+
+
+.card-container{
+  background-color: #F7F6F9;
+  padding: 2rem;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.imgStyle{
+  width: 100px;
+  height: 100px;
+  margin-top: 4rem;
+}
+.big-number{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container{
+  display: flex;
+  margin-top: 1rem;
+  
+}
+.btn-c{
+  background-color: #1A1A1A;
   color: white;
+  border-radius: 50%;
+  border-style: none;
+  height: 2rem;
+  margin-right: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-f{
+  background-color: white;
+  color: #1A1A1A;
+  border-radius: 50%;
+  border-style: none;
+  height: 2rem;
 }
