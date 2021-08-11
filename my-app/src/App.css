@@ -1,69 +1,7 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
   padding: 4rem;
-  background-color: #D6D7DB;
+  background-color: #d6d7db;
   height: 100vh;
-}
-
-.sideCard-container{
-  display: flex;
-  background-color: white;
-  flex-direction: column;
-  padding: 2rem;
-  border-top-left-radius: 5%;
-  border-bottom-left-radius: 5%;
-}
-.inp-city{
-  border-style: none;
-  margin-top: 1rem;
-  border-radius: 4%;
-}
-
-
-
-
-
-.card-container{
-  background-color: #F7F6F9;
-  padding: 2rem;
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
-}
-.imgStyle{
-  width: 100px;
-  height: 100px;
-  margin-top: 4rem;
-}
-.big-number{
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-
-.card-header{
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn-container{
-  display: flex;
-  margin-top: 1rem;
-  
-}
-.btn-c{
-  background-color: #1A1A1A;
-  color: white;
-  border-radius: 50%;
-  border-style: none;
-  height: 2rem;
-  margin-right: 1.8rem;
-}
-
-.btn-f{
-  background-color: white;
-  color: #1A1A1A;
-  border-radius: 50%;
-  border-style: none;
-  height: 1.8rem;
 }

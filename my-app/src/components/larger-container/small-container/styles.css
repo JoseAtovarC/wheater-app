@@ -1,0 +1,29 @@
+.sideCard-container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 2rem;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.inp-city {
+  border-style: none;
+  margin-top: 1rem;
+  border-radius: 4%;
+}
+
+.card-container {
+  background-color: #f7f6f9;
+  padding: 2rem;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.imgStyle {
+  width: 100px;
+  height: 100px;
+  margin-top: 4rem;
+}
+.big-number {
+  font-size: 4rem;
+  font-weight: bold;
+}
