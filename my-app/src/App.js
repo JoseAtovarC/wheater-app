@@ -1,5 +1,6 @@
 import imagen from '../src/assets/foto.png'
 import './App.css';
+import Fetch from './fetchPrueba';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </div>
         <p> ksdnwlkfnñkadwlfñlkadjfñlkdsjflkdjlkdj´lkdsjg´lkdsjg´lkdsjg´lkdsjgkl´dsjgjgj </p>
       <h2>Today's Highlights</h2>
+      <Fetch></Fetch>
       </section>
       
     </div>
