@@ -1,8 +1,9 @@
 .card-container {
   background-color: #f7f6f9;
-  padding: 2rem;
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
+  padding: 3rem;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
 }
 .imgStyle {
   width: 100px;
@@ -17,25 +18,38 @@
 .card-header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .btn-container {
   display: flex;
-  margin-top: 1rem;
+  margin-right: 6rem;
 }
+
+.btn-container > *{
+  margin: 5px;
+}
+
 .btn-c {
   background-color: #1a1a1a;
-  color: white;
+  color: #FFFFFF;
   border-radius: 50%;
   border-style: none;
   height: 2rem;
-  margin-right: 1.8rem;
+  width: 2rem;
 }
 
 .btn-f {
-  background-color: white;
+  background-color: #FFFFFF;
   color: #1a1a1a;
   border-radius: 50%;
   border-style: none;
-  height: 1.8rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.small-card-container{
+  display: flex;
+  justify-content: space-between;
+  
 }
