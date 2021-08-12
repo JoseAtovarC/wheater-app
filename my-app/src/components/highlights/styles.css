@@ -1,0 +1,25 @@
+.highlight-card {
+  background: #ffffff;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.info-text {
+  color: #cecece;
+  font-weight: normal;
+  margin: 0;
+}
+.mini-text {
+  font-size: 1rem;
+}
+.data {
+  text-align: center;
+  font-size: 1.5rem;
+}
