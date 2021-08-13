@@ -9,11 +9,10 @@
   width: 100vw;
 }
 
-.weather-container{
+.weather-container {
   display: flex;
-  height: 78vh;
+  height: 85vh;
   width: 66vw;
   border-radius: 50px;
-  box-shadow:  20px 20px 63px #c5c6c9,
-             -20px -20px 63px #e7e8ed;
+  box-shadow: 20px 20px 63px #c5c6c9, -20px -20px 63px #e7e8ed;
 }
