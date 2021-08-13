@@ -1,11 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import  {WeatherKey} from './keys/keys.js'
 
 
 function Fetch (){
-    
+   useEffect(){ navigator.geolocation.getCurrentPosition(function(position) {
+        console.log("Latitude is :", position.coords.latitude);
+        console.log("Longitude is :", position.coords.longitude);
+      });}
 
 return <div>
+
     <input   onClick={(e)=>{ 
         e.preventDefault()
         const ciudad=e.target.value;
@@ -29,6 +33,9 @@ return <div>
         .then(response => response.json())
         .then(data => console.log(data));
     }} />
+
+
+
      
 </div>
 }
