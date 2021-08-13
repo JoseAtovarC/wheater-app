@@ -1,7 +1,7 @@
 import "./styles.css";
-import imagen from "../../../assets/foto.png";
+import imagen from "../../assets/foto.png";
 
-function SmallCard() {
+function SmallContainer() {
   return (
     <aside className="sideCard-container">
       <input className="inp-city" placeholder=" 🔍 Search for Places"></input>
@@ -14,4 +14,4 @@ function SmallCard() {
   );
 }
 
-export default SmallCard;
+export default SmallContainer;

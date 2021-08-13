@@ -1,0 +1,34 @@
+.small-card{
+    background: #FFFFFF;
+    width: 6vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.icon{
+    width: 75%;
+
+}
+
+.temperature-container{
+    display: flex;
+    align-items: center;
+}
+
+.temperature-container > * {
+    margin: 0 2px;
+}
+
+.weather-day{
+    margin: 0;
+}
+
+.temperature-container > span{
+    color: #CECECE;
+}

@@ -1,7 +1,19 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  align-items: center;
   background-color: #d6d7db;
   height: 100vh;
+  position: absolute;
+  overflow: auto;
+  width: 100vw;
+}
+
+.weather-container{
+  display: flex;
+  height: 78vh;
+  width: 66vw;
+  border-radius: 50px;
+  box-shadow:  20px 20px 63px #c5c6c9,
+             -20px -20px 63px #e7e8ed;
 }

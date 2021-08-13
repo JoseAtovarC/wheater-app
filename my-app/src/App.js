@@ -1,15 +1,16 @@
 import './App.css';
-import SmallCard from './components/larger-container/small-container'
-import LargeContainer from './components/larger-container/larger-container'
+import SmallContainer from './components/small-container'
+import LargeContainer from './components/larger-container'
 import Fetch from './fetchPrueba';
 
 function App() {
   return (
     <div className="container">
-      <SmallCard></SmallCard>
-      <LargeContainer></LargeContainer>
+      <div className="weather-container">
+        <SmallContainer></SmallContainer>
+        <LargeContainer></LargeContainer>
+      </div>
       <Fetch></Fetch>
-
     </div>
   );
 }
