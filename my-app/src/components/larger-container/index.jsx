@@ -55,10 +55,10 @@ function LargeContainer() {
       <h2>Today's Highlights</h2>
       <div className="highlights-container">
         <Highlight title="UV Rays" infoCard="8"></Highlight>
-        <Highlight title="Wind status" infoCard="8KM"></Highlight>
-        <Highlight title="Sunrise and Sunset" infoCard=" 6 am 8pm"></Highlight>
-        <Highlight title="Humidity" infoCard="16%"></Highlight>
-        <Highlight title="Visability" infoCard="6.78km"></Highlight>
+        <Highlight title="Wind status" infoCard="8"></Highlight>
+        <Highlight title="Sunrise and Sunset" infoCard="6:35 AM 5:42 PM"></Highlight>
+        <Highlight title="Humidity" infoCard="16"></Highlight>
+        <Highlight title="Visibility" infoCard="6.78"></Highlight>
       </div>
     </section>
   );
