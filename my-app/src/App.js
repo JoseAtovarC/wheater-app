@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="container">
       <div className="weather-container">
-        <SmallContainer></SmallContainer>
+        <SmallContainer weatherNumber="12" day="Monday" degree="c" time="13:00" clouds="no clouds" rain="no rain"></SmallContainer>
         <LargeContainer></LargeContainer>
       </div>
       <Fetch></Fetch>

@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
 
-function Highlight() {
+function Highlight(props) {
   return (
     <div className="highlight-card">
-      <h4 className="info-text">UV index</h4>
+      <h4 className="info-text"> {props.title}</h4>
       <p className="data">
-        6 <span className="mini-text">km/h</span>
+        {props.infoCard} <span className="mini-text">km/h</span>
       </p>
     </div>
   );
