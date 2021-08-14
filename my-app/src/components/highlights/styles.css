@@ -28,6 +28,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0vh;
+  /* margin-top: 0vh; */
   font-weight: 400;
+}
+
+.sunrise-data {
+  font-size: 1rem;
+  line-height: 3rem;
+}
+
+.kmh {
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.kmh-flex{
+  display: flex;
+  align-items: baseline;
+}
+
+.flex-justifystart{
+  justify-content: flex-start;
+}
+
+.percent{
+  font-size: 1.3rem;
+    display: flex;
+    margin-left: 0.15rem;
+}
+
+
+.humidity-data{
+  display: flex;
+  align-items: flex-start;
 }

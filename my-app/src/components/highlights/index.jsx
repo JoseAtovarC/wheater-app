@@ -1,60 +1,60 @@
 import React from "react";
 import "./styles.css";
 
-function HighlightUV(props) {
+export function HighlightUV(props) {
   return (
     <div className="highlight-card">
       <p className="info-text"> {props.title}</p>
       <p className="data">
-        {props.infoCard} <span className="mini-text"></span>
+        {props.infoCard} 
       </p>
     </div>
   );
 }
 
-function HighlightWind(props) {
+export function HighlightWind(props) {
   return (
     <div className="highlight-card">
       <p className="info-text"> {props.title}</p>
-      <p className="data">
-        {props.infoCard} <span className="mini-text"></span>
+      <p className="data wind-data kmh-flex flex-justifystart">
+        {props.infoCard}<span className='kmh'>km/h</span>
       </p>
     </div>
   );
 }
 
-function HighlightSunrise(props) {
+export function HighlightSunrise(props) {
   return (
     <div className="highlight-card">
       <p className="info-text"> {props.title}</p>
-      <p className="data">
-        {props.infoCard} <span className="mini-text"></span>
+      <p className="data sunrise-data">
+        {props.infoCard}<br/>
+        {props.infoCard2}
       </p>
     </div>
   );
 }
 
-function HighlightHumidity(props) {
+export function HighlightHumidity(props) {
   return (
     <div className="highlight-card">
       <p className="info-text"> {props.title}</p>
-      <p className="data">
-        {props.infoCard} <span className="mini-text"></span>
+      <p className="data humidity-data flex-justifystart">
+        {props.infoCard} <span className='percent'>%</span>
       </p>
     </div>
   );
 }
 
-function HighlightVisibility(props) {
+export function HighlightVisibility(props) {
   return (
     <div className="highlight-card">
       <p className="info-text"> {props.title}</p>
-      <p className="data">
-        {props.infoCard} <span className="mini-text"></span>
+      <p className="data kmh-flex flex-justifystart">
+        {props.infoCard} <span className='kmh'>km</span>
       </p>
     </div>
   );
 }
 
 
-export default {HighlightWind, HighlightHumidity, HighlightSunrise, HighlightUV, HighlightVisibility};

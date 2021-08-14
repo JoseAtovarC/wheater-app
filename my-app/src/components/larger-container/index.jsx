@@ -1,6 +1,6 @@
 import SmallCard from "../small-card";
 import "./styles.css";
-import Highlight from "../highlights";
+import {HighlightWind, HighlightHumidity, HighlightSunrise, HighlightUV, HighlightVisibility} from "../highlights";
 
 function LargeContainer() {
   return (
@@ -54,11 +54,11 @@ function LargeContainer() {
       </div>
       <h2>Today's Highlights</h2>
       <div className="highlights-container">
-        <Highlight title="UV Rays" infoCard="8"></Highlight>
-        <Highlight title="Wind status" infoCard="8"></Highlight>
-        <Highlight title="Sunrise and Sunset" infoCard="6:35 AM 5:42 PM"></Highlight>
-        <Highlight title="Humidity" infoCard="16"></Highlight>
-        <Highlight title="Visibility" infoCard="6.78"></Highlight>
+        <HighlightUV title="UV Rays" infoCard="8"></HighlightUV>
+        <HighlightWind title="Wind status" infoCard="8"></HighlightWind>
+        <HighlightSunrise title="Sunrise and Sunset" infoCard="6:35 AM" infoCard2="5:42 PM"></HighlightSunrise>
+        <HighlightHumidity title="Humidity" infoCard="16"></HighlightHumidity>
+        <HighlightVisibility title="Visibility" infoCard="6.78"></HighlightVisibility>
       </div>
     </section>
   );
