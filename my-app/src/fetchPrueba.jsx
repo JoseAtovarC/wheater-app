@@ -16,7 +16,7 @@ function Fetch() {
     fetch(Apiurlcelsius)
       .then((response) => response.json())
       .then((data) => {
-        seticon({ icono: data.weather[0].icon });
+        // seticon({ icono: data.weather[0].icon });
       });
     navigator.geolocation.getCurrentPosition(log);
   });

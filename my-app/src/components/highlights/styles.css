@@ -1,25 +1,63 @@
 .highlight-card {
   background: #ffffff;
   width: auto;
-  height: 100px;
+  height: 21vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   border-radius: 15px;
-  font-size: 0.75rem;
   font-weight: 600;
-  padding: 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .info-text {
   color: #cecece;
-  font-weight: normal;
-  margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0.25rem;
 }
+
 .mini-text {
   font-size: 1rem;
 }
 .data {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 0vh; */
+  font-weight: 400;
+}
+
+.sunrise-data {
+  font-size: 1rem;
+}
+
+.kmh {
+  font-size: 1rem;
+  margin: 0 0.5rem;
+}
+
+.kmh-flex{
+  display: flex;
+  align-items: baseline;
+}
+
+.flex-justifystart{
+  justify-content: flex-start;
+}
+
+.percent{
+  font-size: 1.3rem;
+    display: flex;
+    margin-left: 0.15rem;
+}
+
+
+.humidity-data{
+  display: flex;
+  align-items: flex-start;
 }
