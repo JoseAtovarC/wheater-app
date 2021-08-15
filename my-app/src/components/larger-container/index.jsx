@@ -16,21 +16,49 @@ function LargeContainer() {
         </div>
       </div>
       <div className="small-card-container">
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
-        <SmallCard />
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
+        <SmallCard
+          dayOfWeek="Monday"
+          weatherMax="54"
+          weatherMin="-87"
+        ></SmallCard>
       </div>
       <h2>Today's Highlights</h2>
       <div className="highlights-container">
-        <Highlight></Highlight>
-        <Highlight></Highlight>
-        <Highlight></Highlight>
-        <Highlight></Highlight>
-        <Highlight></Highlight>
+        <Highlight title="UV Rays" infoCard="8"></Highlight>
+        <Highlight title="Wind status" infoCard="8KM"></Highlight>
+        <Highlight title="Sunrise and Sunset" infoCard=" 6 am 8pm"></Highlight>
+        <Highlight title="Humidity" infoCard="16%"></Highlight>
+        <Highlight title="Visability" infoCard="6.78km"></Highlight>
       </div>
     </section>
   );
