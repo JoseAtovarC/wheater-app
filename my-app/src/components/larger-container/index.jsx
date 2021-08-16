@@ -123,8 +123,7 @@ function LargeContainer(props) {
     // fetch(Apiurl2)
     //   .then((response) => response.json())
     //   .then((data) => {
-      console.log(JSON.stringify(v));
-      // console.log(Object.keys(v));
+
         // setuvRays(data.current.uvi);
         // setWindStatus(data.current.wind_speed);
         // let date = new Date(data.current.sunrise * 1000);
