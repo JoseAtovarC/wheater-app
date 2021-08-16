@@ -1,16 +1,15 @@
 import './App.css';
 import SmallContainer from './components/small-container'
-import LargeContainer from './components/larger-container'
-import Fetch from './fetchPrueba';
+
 
 function App() {
   return (
     <div className="container">
       <div className="weather-container">
-        <SmallContainer weatherNumber="12" day="Monday" degree="c" time="13:00" clouds="no clouds" rain="no rain"></SmallContainer>
-        <LargeContainer></LargeContainer>
+        <SmallContainer></SmallContainer>
+        
       </div>
-      <Fetch></Fetch>
+      
     </div>
   );
 }

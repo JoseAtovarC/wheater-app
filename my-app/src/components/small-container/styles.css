@@ -38,3 +38,15 @@
   margin-bottom: 0;
   font-size: 0.8rem;
 }
+
+.btn-geo{
+  border-style: none;
+  background-color: white;
+  width: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-geo:hover{
+  cursor: pointer;
+}
