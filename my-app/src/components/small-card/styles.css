@@ -9,6 +9,13 @@
     align-items: center;
     font-size: 0.75rem;
     font-weight: 600;
+    
+}
+
+.small-card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px, 16px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .icon{

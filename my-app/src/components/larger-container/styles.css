@@ -9,6 +9,12 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 3rem;
+}
+
+.header-title{
+  margin: 0;
+  margin-left: 1vw;
 }
 
 .btn-container {
@@ -27,6 +33,7 @@
   border-style: none;
   height: 2rem;
   width: 2rem;
+  font-weight: 700;
 }
 
 .btn-f {
@@ -36,6 +43,7 @@
   border-style: none;
   height: 2rem;
   width: 2rem;
+  font-weight: 700;
 }
 
 .small-card-container {
