@@ -210,7 +210,7 @@ function LargeContainer(props) {
           smallTempMin={tempMin7}
         ></SmallCard>
       </div>
-      <h2>Today's Highlights</h2>
+      <h2 className='highlight-title'>Today's Highlights</h2>
       <div className="highlights-container">
         <HighlightUV title="UV Rays" infoCard={uvRays}></HighlightUV>
         <HighlightWind
@@ -219,7 +219,7 @@ function LargeContainer(props) {
           infoCard={wind_status}
         ></HighlightWind>
         <HighlightSunrise
-          title="Sunrise and Sunset"
+          title="Sunrise & Sunset"
 
           infoCard={<span className="special-card">{sunrise}</span>}
           infoCard2={<span className="special-card">{sunset}</span>}

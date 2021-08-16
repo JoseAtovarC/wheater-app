@@ -18,8 +18,11 @@ function SmallContainer() {
   
   const [arrayCity, setArraycity] = useState();
 
+  const arrayOfWeekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  
   let showDate = new Date();
-  let day = showDate.toDateString().slice(0, 4);
+  let dayNumber = showDate.getDay();
+  let day = arrayOfWeekdays[dayNumber];
   let hour = showDate.getHours();
   let minute = showDate.getMinutes();
 
@@ -154,11 +157,11 @@ function SmallContainer() {
         </p>
         <hr className='hr' />
         <div className='condition1'>
-          <div className='icon-placeholder' />
+          {/* <div className='icon-placeholder' /> */}
           <p className="info">{main}</p>
         </div>
         <div className='condition2'>
-          <div className='icon-placeholder' />
+          {/* <div className='icon-placeholder' /> */}
           <p className="info">{description}</p>
         </div>
 
